@@ -1,18 +1,15 @@
 # Training-Attendance-Data-Analysis
-
-# 📊 Training Attendance Analysis Dashboard
-
 This dashboard was fully utilize using Excel which provides real-time insights into training attendance across departments and shifts, helping HR and management monitor and improve employee engagement in required training programs.
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 To analyze and visualize the attendance percentage by training topic for targeted employees, using live data provided by the HR department. The goal is to identify attendance trends and gaps to support decision-making around training effectiveness.
 
 ---
 
-## 🛠️ Tools
+## Tools
 
 - **Excel** – Data modeling, interactive dashboard design
 - **Power Query** – Filtering and transforming data from HR raw data which will be updated monthly
@@ -21,12 +18,18 @@ To analyze and visualize the attendance percentage by training topic for targete
   - Shift
 
 ---
-## Process
--
--
--
 
-## 📈 Project Insight
+## Process
+- HR Department update the latest employee list name every month (raw data)
+- Raw data will be filter into power query into EMPMASTER(Power Query) tab
+- Data copied into EMPMASTER(Safety Only) tab and fill up attendance manually
+- Dashboard created based on EMPMASTER(Safety Only) tab
+- Once the raw data updated, EMPMASTER(Power Query) automatically change
+- Manually Vlookup used to update EMPMASTER(Safety Only)
+
+---
+
+## Project Insight
 
 - **Attendance Percentage by Topic**  
   See how well employees are attending different training topics.
@@ -44,10 +47,11 @@ To analyze and visualize the attendance percentage by training topic for targete
 
 ## Conclusion
 
+This project able to visualize and coordinate better training arrangement between approximately 1200 targeted employees and 15 different safety training topics in a year. Throughout this project, we manage to spread better safety awareness to all employees and develop a good safety culture in the company
 
 ---
 
-## 📄 License
+## License
 
 This project is for internal analysis use. Not intended for public or commercial use without permission.
 
